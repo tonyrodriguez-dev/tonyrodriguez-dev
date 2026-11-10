@@ -1,42 +1,71 @@
+# 👋 Welcome
+
 <p align="center">
   <img src="assets/profile-banner.svg" width="100%" alt="Tony Rodríguez Moreno — Smart contracts, Python and AI automation">
 </p>
 
 <p align="center">
-  <a href="https://github.com/tonyrodriguez-dev/solidity-starter-projects"><strong>Explore my Solidity projects</strong></a>
+  <strong>Blockchain &amp; Full-Stack Development</strong><br>
+  Castellón, Spain
 </p>
 
-## About me
+<p align="center">
+  <a href="#featured-projects">View projects</a> ·
+  <a href="#tech-stack">Tech stack</a> ·
+  <a href="#connect-with-me">Connect</a>
+</p>
 
-I build Python automations and AI agent workflows. I’m expanding into blockchain development through José Cruz’s **Blockchain Accelerator**, where I’m building and documenting smart contract projects in Solidity.
+## 💻 Blockchain & Full-Stack Development
 
-I’m interested in applying my Python experience to Web3, especially tools that make on-chain activity easier to monitor and understand.
+I build Python automations, AI agent workflows and API-backed applications. My full-stack work is backend-focused, with APIs, databases and workflows that support dashboards and internal tools.
 
-## Featured Solidity projects
+In blockchain, I’m building and documenting smart contract projects in Solidity through José Cruz’s **Blockchain Accelerator**. I’m currently working on how deployed contracts interact and how `msg.sender` changes across calls.
 
-| Project | What it demonstrates |
+## 🚀 About Me
+
+```python
+tony = {
+    "location": "Castellón, Spain",
+    "building_with": ["Python", "FastAPI", "PostgreSQL"],
+    "working_on": ["Solidity", "smart contract systems"],
+    "interests": ["DeFi", "tokenization", "on-chain automation"],
+}
+```
+
+I’m especially interested in bringing my automation experience into Web3, for example by turning on-chain events into useful alerts and reports.
+
+## Featured Projects
+
+| Project | What you can explore |
 | --- | --- |
-| [**Calculadora**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/Calculadora.sol) | A calculator with a persistent accumulator, events for arithmetic operations and a modifier that validates an input. |
-| [**CryptoReal**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) | An ERC-20 token built on OpenZeppelin. Its constructor mints 1,000 CRT to the deployer. |
+| [**Calculadora**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/Calculadora.sol) | A Solidity calculator with a persistent accumulator, arithmetic events and an input check implemented as a modifier. |
+| [**CryptoReal**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) | An ERC-20 token built with OpenZeppelin. Its constructor mints 1,000 CRT to the deployer. |
 
-The [project repository](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix) includes instructions and expected results so you can try both contracts in Remix.
+[**Try both contracts in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix). The repository includes setup instructions and expected results.
 
-## Tech stack
+## Tech Stack
 
 | Area | Tools |
 | --- | --- |
 | **Smart contracts** | ![Solidity](https://img.shields.io/badge/Solidity-243451?style=flat-square&logo=solidity&logoColor=white) ![Ethereum / EVM](https://img.shields.io/badge/Ethereum%20%2F%20EVM-4056a1?style=flat-square&logo=ethereum&logoColor=white) ![Remix](https://img.shields.io/badge/Remix-14596d?style=flat-square) ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-3b4aa0?style=flat-square&logo=openzeppelin&logoColor=white) |
-| **Python & AI automation** | ![Python](https://img.shields.io/badge/Python-285988?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-08726a?style=flat-square&logo=fastapi&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-24604d?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-24604d?style=flat-square&logo=langgraph&logoColor=white) |
+| **Backend & AI automation** | ![Python](https://img.shields.io/badge/Python-285988?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-08726a?style=flat-square&logo=fastapi&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-24604d?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-24604d?style=flat-square&logo=langgraph&logoColor=white) |
 | **Data & infrastructure** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-315b7b?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-1764a0?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-9c3e2b?style=flat-square&logo=git&logoColor=white) |
 
-## Currently learning
+## 🎯 Specializations
 
-- **Contract systems** · Using interfaces to call one deployed contract from another.
-- **Caller identity** · Following how `msg.sender` changes across contract calls.
-- **Web3 interests** · DeFi, tokenization and automation for on-chain workflows.
+| Area | How I use it |
+| --- | --- |
+| **Full-stack applications** | Backend-focused work connecting APIs and databases to dashboards and internal tools. |
+| **AI agents & automation** | Building workflows with language models, retrieval and integrations with external services. |
+| **Solidity & smart contracts** | Developing and testing Solidity projects in Remix, with a current focus on contract interfaces and calls between contracts. |
+
+## Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tony%20Rodr%C3%ADguez%20Moreno-1764a0?style=flat-square)](https://www.linkedin.com/in/tonyrodriguezmoreno/)
+[![GitHub](https://img.shields.io/badge/GitHub-tonyrodriguez--dev-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/tonyrodriguez-dev)
 
 ---
 
 ### En español
 
-Desarrollo automatizaciones y flujos con agentes de IA en Python. Estoy ampliando mi perfil hacia blockchain con Blockchain Accelerator. Aquí publico mis proyectos de Solidity, el código y los pasos para probarlos en Remix.
+Desarrollo automatizaciones, agentes de IA y aplicaciones con Python. Ahora estoy ampliando mi perfil hacia blockchain con Solidity. En mis repositorios encontrarás el código, qué demuestra cada contrato y cómo probarlo.
