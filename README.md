@@ -19,7 +19,7 @@
 
 I build Python automations, AI agent workflows and API-backed applications. My full-stack work is backend-focused, with APIs, databases and workflows that support dashboards and internal tools.
 
-In blockchain, I’m building and documenting smart contract projects in Solidity through José Cruz’s **Blockchain Accelerator**. I’m currently working on how deployed contracts interact and how `msg.sender` changes across calls.
+In blockchain, I’m building and documenting smart contract projects in Solidity through José Cruz’s **Blockchain Accelerator**. My latest exercises document how deployed contracts interact, how `msg.sender` differs from `tx.origin`, and how that difference affects access checks.
 
 ## 🚀 About Me
 
@@ -40,8 +40,10 @@ I’m especially interested in bringing my automation experience into Web3, for 
 | --- | --- |
 | [**Calculadora**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/Calculadora.sol) | A Solidity calculator with a persistent accumulator, arithmetic events and an input check implemented as a modifier. |
 | [**CryptoReal**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) | An ERC-20 token built with OpenZeppelin. Its constructor mints 1,000 CRT to the deployer. |
+| [**Caller Identity Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/connected-contracts) | Connected contracts, interfaces and a security study comparing `msg.sender` with `tx.origin`, with local reproduction steps. |
+| [**Sender**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/msg-sender) | Constructor initialization and the difference between a stored owner and the caller of a later request. |
 
-[**Try both contracts in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix). The repository includes setup instructions and expected results.
+[**Try the calculator and token in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix). The repository includes setup instructions and expected results.
 
 ## Tech Stack
 
@@ -57,7 +59,7 @@ I’m especially interested in bringing my automation experience into Web3, for 
 | --- | --- |
 | **Full-stack applications** | Backend-focused work connecting APIs and databases to dashboards and internal tools. |
 | **AI agents & automation** | Building workflows with language models, retrieval and integrations with external services. |
-| **Solidity & smart contracts** | Developing and testing Solidity projects in Remix, with a current focus on contract interfaces and calls between contracts. |
+| **Solidity & smart contracts** | Practicing Solidity, contract interfaces and caller identity. The portfolio includes a documented `tx.origin` authorization example and local validation. |
 
 ## Connect With Me
 
