@@ -19,7 +19,7 @@
 
 I build Python automations, AI agent workflows and API-backed applications. My full-stack work is backend-focused, with APIs, databases and workflows that support dashboards and internal tools.
 
-In blockchain, I’m building and documenting smart contract projects in Solidity through José Cruz’s **Blockchain Accelerator**. My latest exercises document how deployed contracts interact, how `msg.sender` differs from `tx.origin`, and how that difference affects access checks.
+In blockchain, I’m building and documenting smart contract projects in Solidity through José Cruz’s **Blockchain Accelerator**. My latest exercises compare administrator checks and trace how ETH enters and leaves a contract. The project guides include local reproduction steps and failure cases.
 
 ## 🚀 About Me
 
@@ -42,6 +42,8 @@ I’m especially interested in bringing my automation experience into Web3, for 
 | [**CryptoReal**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) | An ERC-20 token built with OpenZeppelin. Its constructor mints 1,000 CRT to the deployer. |
 | [**Caller Identity Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/connected-contracts) | Connected contracts, interfaces and a security study comparing `msg.sender` with `tx.origin`, with local reproduction steps. |
 | [**Sender**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/msg-sender) | Constructor initialization and the difference between a stored owner and the caller of a later request. |
+| [**Access Checks Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/access-checks) | Three ways to check an administrator address, with examples of the revert data each approach produces. |
+| [**ETH Transfers Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/eth-transfers) | Deposits with `payable`, withdrawals via `call` and a documented test showing why withdrawal permissions matter. |
 
 [**Try the calculator and token in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix). The repository includes setup instructions and expected results.
 
@@ -59,7 +61,7 @@ I’m especially interested in bringing my automation experience into Web3, for 
 | --- | --- |
 | **Full-stack applications** | Backend-focused work connecting APIs and databases to dashboards and internal tools. |
 | **AI agents & automation** | Building workflows with language models, retrieval and integrations with external services. |
-| **Solidity & smart contracts** | Practicing Solidity, contract interfaces and caller identity. The portfolio includes a documented `tx.origin` authorization example and local validation. |
+| **Solidity & smart contracts** | Practicing contract interfaces, caller identity, access checks and native ETH transfers. The portfolio documents a `tx.origin` authorization example and an unrestricted withdrawal with local reproduction steps. |
 
 ## Connect With Me
 
