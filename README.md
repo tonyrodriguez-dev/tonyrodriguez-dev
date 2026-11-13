@@ -1,75 +1,61 @@
-# 👋 Welcome
-
 <p align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="Tony Rodríguez Moreno — Smart contracts, Python and AI automation">
+  <img src="assets/profile-banner.svg" width="100%" alt="Tony Rodríguez Moreno · Smart contracts, Python and AI automation">
 </p>
 
 <p align="center">
-  <strong>Blockchain &amp; Full-Stack Development</strong><br>
+  <strong>Solidity &amp; EVM · Python Backend · AI Automation</strong><br>
   Castellón, Spain
 </p>
 
 <p align="center">
-  <a href="#featured-projects">View projects</a> ·
+  <a href="#currently-building">Current project</a> ·
+  <a href="#selected-work">Selected work</a> ·
   <a href="#tech-stack">Tech stack</a> ·
-  <a href="#connect-with-me">Connect</a>
+  <a href="https://www.linkedin.com/in/tonyrodriguezmoreno/">LinkedIn</a>
 </p>
 
-## 💻 Blockchain & Full-Stack Development
+## About me
 
-I build Python automations, AI agent workflows and API-backed applications. My full-stack work is backend-focused, with APIs, databases and workflows that support dashboards and internal tools.
+I'm Tony Rodríguez Moreno. I build Python backends, AI agent workflows and tools that automate manual work. I bring experience in warehouse operations and ceramic logistics to the way I design software, from validating inputs to deciding when a person should review an exception.
 
-In blockchain, I’m building and documenting smart contract projects in Solidity through José Cruz’s **Blockchain Accelerator**. My latest exercises compare administrator checks and trace how ETH enters and leaves a contract. The project guides include local reproduction steps and failure cases.
+On the blockchain side, I work with Solidity and the EVM. My public repositories show the contracts, the rules they enforce and how to reproduce the behavior locally.
 
-## 🚀 About Me
+## Currently building
 
-```python
-tony = {
-    "location": "Castellón, Spain",
-    "building_with": ["Python", "FastAPI", "PostgreSQL"],
-    "working_on": ["Solidity", "smart contract systems"],
-    "interests": ["DeFi", "tokenization", "on-chain automation"],
-}
-```
+### CryptoBank · Solidity · In progress
 
-I’m especially interested in bringing my automation experience into Web3, for example by turning on-chain events into useful alerts and reports.
+I'm building an ETH vault with balances tracked per address. The goal is to let each account deposit and withdraw its own ETH, while enforcing a configurable deposit limit per account.
 
-## Featured Projects
-
-| Project | What you can explore |
+| Design decision | What I want to verify |
 | --- | --- |
-| [**Calculadora**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/Calculadora.sol) | A Solidity calculator with a persistent accumulator, arithmetic events and an input check implemented as a modifier. |
-| [**CryptoReal**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) | An ERC-20 token built with OpenZeppelin. Its constructor mints 1,000 CRT to the deployer. |
-| [**Caller Identity Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/connected-contracts) | Connected contracts, interfaces and a security study comparing `msg.sender` with `tx.origin`, with local reproduction steps. |
-| [**Sender**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/msg-sender) | Constructor initialization and the difference between a stored owner and the caller of a later request. |
-| [**Access Checks Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/access-checks) | Three ways to check an administrator address, with examples of the revert data each approach produces. |
-| [**ETH Transfers Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/eth-transfers) | Deposits with `payable`, withdrawals via `call` and a documented test showing why withdrawal permissions matter. |
+| **Separate balances for each address** | A withdrawal checks the caller's balance. Another account's deposit stays untouched. |
+| **Limit the resulting balance** | A deposit that reaches the limit succeeds. An extra wei is rejected. |
+| **Update the balance before sending ETH** | If the recipient rejects the transfer, the withdrawal reverts and the balance is restored. |
 
-[**Try the calculator and token in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix). The repository includes setup instructions and expected results.
+The next milestone is to reproduce these cases locally with two accounts and document the results.
 
-## Tech Stack
+## Selected work
+
+| Project | What you can inspect |
+| --- | --- |
+| [**CryptoReal**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) | An OpenZeppelin ERC-20 contract that mints 1,000 CRT to the deployer. |
+| [**Connected Contracts**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/connected-contracts) | A two-contract system that illustrates how `msg.sender` changes across calls and why `tx.origin` is a poor authorization check. |
+| [**ETH Transfers Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/eth-transfers) | ETH deposits, withdrawals via `call` and a reproducible case where an unrestricted withdrawal exposes the shared balance. |
+| [**Access Checks Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/access-checks) | A comparison of `revert`, `require` and custom errors for the same admin check. |
+
+[Browse all Solidity projects and local reproduction steps](https://github.com/tonyrodriguez-dev/solidity-starter-projects)
+
+## Tech stack
 
 | Area | Tools |
 | --- | --- |
-| **Smart contracts** | ![Solidity](https://img.shields.io/badge/Solidity-243451?style=flat-square&logo=solidity&logoColor=white) ![Ethereum / EVM](https://img.shields.io/badge/Ethereum%20%2F%20EVM-4056a1?style=flat-square&logo=ethereum&logoColor=white) ![Remix](https://img.shields.io/badge/Remix-14596d?style=flat-square) ![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-3b4aa0?style=flat-square&logo=openzeppelin&logoColor=white) |
-| **Backend & AI automation** | ![Python](https://img.shields.io/badge/Python-285988?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-08726a?style=flat-square&logo=fastapi&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-24604d?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-24604d?style=flat-square&logo=langgraph&logoColor=white) |
-| **Data & infrastructure** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-315b7b?style=flat-square&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-1764a0?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-9c3e2b?style=flat-square&logo=git&logoColor=white) |
+| **Blockchain** | Solidity · Ethereum / EVM · Remix · OpenZeppelin |
+| **Backend** | Python · FastAPI · REST APIs |
+| **AI automation** | LangChain · LangGraph · RAG · LLM integrations |
+| **Data and tooling** | PostgreSQL · Redis · Docker · Git |
 
-## 🎯 Specializations
+## Connect
 
-| Area | How I use it |
-| --- | --- |
-| **Full-stack applications** | Backend-focused work connecting APIs and databases to dashboards and internal tools. |
-| **AI agents & automation** | Building workflows with language models, retrieval and integrations with external services. |
-| **Solidity & smart contracts** | Practicing contract interfaces, caller identity, access checks and native ETH transfers. The portfolio documents a `tx.origin` authorization example and an unrestricted withdrawal with local reproduction steps. |
+I'm interested in roles involving smart contracts, Python backends or AI automation. I work in Spanish and welcome opportunities in Spain and remote teams.
 
-## Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tony%20Rodr%C3%ADguez%20Moreno-1764a0?style=flat-square)](https://www.linkedin.com/in/tonyrodriguezmoreno/)
-[![GitHub](https://img.shields.io/badge/GitHub-tonyrodriguez--dev-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/tonyrodriguez-dev)
-
----
-
-### En español
-
-Desarrollo automatizaciones, agentes de IA y aplicaciones con Python. Ahora estoy ampliando mi perfil hacia blockchain con Solidity. En mis repositorios encontrarás el código, qué demuestra cada contrato y cómo probarlo.
+[**LinkedIn · Tony Rodríguez Moreno**](https://www.linkedin.com/in/tonyrodriguezmoreno/)
