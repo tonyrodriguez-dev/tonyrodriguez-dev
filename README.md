@@ -31,7 +31,7 @@ tony = {
 
 ![In progress](https://img.shields.io/badge/In%20progress-7751BA?style=for-the-badge) ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white) ![Remix](https://img.shields.io/badge/Remix-126A79?style=for-the-badge)
 
-I'm building an ETH vault that tracks balances per address. The design includes a configurable balance cap per account and checks before each withdrawal.
+I'm building an ETH vault that tracks balances per address. The [per-customer bank](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/my-projects/bank) is its starting point. The design includes a configurable balance cap per account and checks before each withdrawal.
 
 > [!NOTE]
 > **Next test in Remix:** A deposits ETH, then B tries to withdraw it. The withdrawal should revert and A's recorded balance should stay the same.
@@ -51,7 +51,7 @@ I'm building an ETH vault that tracks balances per address. The design includes 
 
 A Solidity token built with OpenZeppelin. The constructor mints 1,000 CRT to the deployer. The Remix walkthrough shows how to check the balance in base units.
 
-[**View contract**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) · [**Try it in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix)
+[**View contract**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/tokens/CryptoReal.sol) · [**Try it in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix)
 
 #### 🔗 Caller Identity Lab · Connected contracts
 
@@ -68,9 +68,10 @@ Two versions show how ETH enters and leaves a contract. A two-account test demon
 <details>
 <summary><strong>More Solidity projects</strong></summary>
 
+- 🏦 [**My own projects**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/my-projects) · Lives counter, vault, piggy bank and a per-customer bank, written by me.
 - 🛡️ [**Access Checks Lab**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/access-checks) · Compare `revert`, `require` and custom errors.
 - 👤 [**Sender**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/msg-sender) · Track the difference between a stored owner and the caller.
-- 🧮 [**Calculadora**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/Calculadora.sol) · Explore state, events and modifiers through arithmetic.
+- 🧮 [**Calculadora**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/basics/Calculadora.sol) · Explore state, events and modifiers through arithmetic.
 
 </details>
 
