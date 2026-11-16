@@ -39,21 +39,27 @@ I'm building an ETH vault that tracks balances per address. The design includes 
 - 🎚️ Test a deposit that reaches the cap and one that exceeds it by 1 wei.
 - 🔄 Check that a failed ETH transfer restores the recorded balance.
 
-## 📂 Featured Projects
+## 📂 Blockchain Repositories
 
-### 🪙 CryptoReal · ERC-20 token
+[**Solidity Starter Projects**](https://github.com/tonyrodriguez-dev/solidity-starter-projects) brings together my contracts for caller identity, access control, ERC-20 and ETH transfers. Start with the [repository layout](https://github.com/tonyrodriguez-dev/solidity-starter-projects#repository-layout) to find the code, or use the [manual test cases](https://github.com/tonyrodriguez-dev/solidity-starter-projects#manual-test-cases) to reproduce a result in Remix.
+
+[Browse all repositories ↗](https://github.com/tonyrodriguez-dev?tab=repositories)
+
+### Featured projects from the repository
+
+#### 🪙 CryptoReal · ERC-20 token
 
 A Solidity token built with OpenZeppelin. The constructor mints 1,000 CRT to the deployer. The Remix walkthrough shows how to check the balance in base units.
 
 [**View contract**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/blob/main/CryptoReal.sol) · [**Try it in Remix**](https://github.com/tonyrodriguez-dev/solidity-starter-projects#try-them-in-remix)
 
-### 🔗 Caller Identity Lab · Connected contracts
+#### 🔗 Caller Identity Lab · Connected contracts
 
 Two contracts use an interface to pass a call. The walkthrough follows the caller at each step and reproduces the authorization issue caused by using `tx.origin`.
 
 [**Explore code and walkthrough**](https://github.com/tonyrodriguez-dev/solidity-starter-projects/tree/main/connected-contracts)
 
-### 💸 ETH Transfers Lab · Payable and call
+#### 💸 ETH Transfers Lab · Payable and call
 
 Two versions show how ETH enters and leaves a contract. A two-account test demonstrates what happens when a withdrawal can spend the shared balance.
 
@@ -69,6 +75,8 @@ Two versions show how ETH enters and leaves a contract. A two-account test demon
 </details>
 
 ## 🛠️ Tech Stack
+
+My work spans Solidity smart contracts, Python APIs and AI workflows. The tools below are grouped by where I use them.
 
 ### ⛓️ Web3 & smart contracts
 
